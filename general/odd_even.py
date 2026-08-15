@@ -8,9 +8,12 @@ def odd_even(num):
      return 1
   else:
      return 0 
+
+assert(odd_even(0) == 0)
 assert(odd_even(5000) == 0) 
 assert(odd_even(8001) == 1)
 assert(odd_even(10500)== 0)
 assert(odd_even(20450) == 0)
 assert(odd_even(35651) == 1 )
+assert(odd_even(49999) == 1)
 
