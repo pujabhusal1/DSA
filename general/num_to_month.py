@@ -58,14 +58,14 @@ def get_month_name(num):
         9: "september",
         10: "october",
         11: "november",
-        12: "December",
+        12: "december",
     }
 
     if num not in months:
         print("invalid")
         return "invalid"
     else: 
-        print(months[num])
+       
         return months[num]
 
 assert get_month_name(1) == "january"
