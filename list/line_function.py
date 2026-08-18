@@ -19,6 +19,6 @@ def compute_y(x, a, b):
     return y
 #(compute_y([1, 2], 3, 2))
 assert compute_y([], 0, 0) == []
-assert compute_y([1,1,1],1, 1) == [2, 2, 2]
+assert compute_y([1,1,1],1, 1) == [2, 2, 3]
 assert compute_y([1, 2, 3], 0, 0) == [0, 0, 0]
 assert compute_y([10, 20, 30, 40, 50, 60, 70, 80, 90], 2, 2) == [22, 42, 62, 82, 102, 122, 142, 162, 182]
