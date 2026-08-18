@@ -16,7 +16,7 @@ def odd_string(mystring):
         #else:
             #print('no')
     return ans
-(odd_string('bhusal'))
+
 assert(odd_string('') == '')
 assert(odd_string('puja') == 'ua' )
 assert(odd_string('kanxabhusal') == 'axbua')
