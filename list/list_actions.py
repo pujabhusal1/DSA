@@ -50,7 +50,9 @@ def transform_string(myString):
       
 #print (transform_string('pujaflu'))
 assert transform_string('') == []
+assert transform_string('xyz') == []
 assert transform_string('a1a') == [1,1]
 assert transform_string('qwertypujajnlg') == [1, 1, 1]
 assert transform_string('pujaqqqweertttttt123456789900') == [1, 5, 5,]
+
         
