@@ -58,6 +58,7 @@ assert myanimal.is_warmblooded() == False
 assert myanimal.is_marine() == True
 assert myanimal.can_fly() == False
 assert myanimal.is_vertebrates() == True
+assert myanimal.get_name() == "salmon"
 
 class Bird(Animal):
     def __init__(self, name):
@@ -83,6 +84,7 @@ assert myanimal.is_warmblooded() == True
 assert myanimal.is_marine() == False
 assert myanimal.can_fly() == True
 assert myanimal.is_vertebrates() == True
+assert myanimal.get_name() == "squirel"
 
 class Mammal(Animal):
     def __init__(self, name):
@@ -108,6 +110,7 @@ assert myanimal.is_warmblooded() == True
 assert myanimal.is_marine() == True
 assert myanimal.is_vertebrates() == True
 assert myanimal.can_fly() == False
+assert myanimal.get_name() == "dog"
 
 class Reptiles(Animal):
     def __init__(self, name):
@@ -133,6 +136,7 @@ assert myanimal.can_fly() == False
 assert myanimal.is_marine() == True
 assert myanimal.is_vertebrates() == False
 assert myanimal.is_warmblooded() == False
+assert myanimal.get_name() == "snakes"
 
 class Human(Mammal):
     def __init__(self, name, address):
