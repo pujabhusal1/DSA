@@ -1,0 +1,17 @@
+class triangle:
+    def __init__ (self, breath, height):
+        self.breath = breath
+        self.height = height
+    def get_area(self):
+        return 1/2*(self.breath  * self.height)
+mytriangle = triangle(2, 6)
+assert mytriangle.get_area() == 6
+
+mytriangle = triangle(4, 5)
+assert mytriangle.get_area() == 10
+
+mytriangle = triangle(50, 50)
+assert mytriangle.get_area() == 1250
+
+mytriangle = triangle(100, 100)
+assert mytriangle.get_area() == 5000

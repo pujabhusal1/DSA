@@ -1,0 +1,25 @@
+class rectangle:
+    """
+    Length : 0-100
+    """
+    def __init__(self, length, breath):
+        self.length = length
+        self.breath = breath
+
+    def get_area(self):
+        return self.length * self.breath
+
+
+myrectangle = rectangle(5, 5) # Creates a rectangle 
+assert myrectangle.get_area() == 25
+
+mySquare = rectangle(10, 10)
+assert mySquare.get_area() == 100
+
+myrectangle = rectangle(50, 50)
+assert myrectangle.get_area() == 2500
+
+myrectangle = rectangle(100, 100)
+assert myrectangle.get_area() == 10000
+
+    
